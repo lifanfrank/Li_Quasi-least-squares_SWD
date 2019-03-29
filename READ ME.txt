@@ -1,0 +1,11 @@
+The current folder contains files for implementing the QLS approach introduced in "Design and analysis considerations for stepped wedge cluster randomized trials with a decaying correlation structure" by F. Li.
+
+Continuous responses are generated from a marginal mean model with specified correlation structures to mimic a cohort stepped wedge cluster randomized trial, where longitudinal follow-ups are available for each recruited individual within a cluster. The treatment is assiged at the cluster level. 
+
+List of Files:
+1) data_gen.r = R file for simulating continuous outcome data
+2) maqls_decay.r = QLS/MAQLS main program for clustered continuous responses with decayed correlation
+3) example_analysis.r = R file that illustrates the use of QLS/MAQLS main program based on a simulated dataset
+
+NOTES:  1) The example program demonstrates the computation for a trial with 15 clusters, 20 individuals per cluster and 4 periods (1 baseline). 
+	2) You will need to change path/directory names before running the example program. 
