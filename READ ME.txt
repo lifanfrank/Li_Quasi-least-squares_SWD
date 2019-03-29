@@ -1,4 +1,4 @@
-The current folder contains files for implementing the QLS approach introduced in "Design and analysis considerations for stepped wedge cluster randomized trials with a decaying correlation structure" by F. Li.
+The current folder contains files for implementing the QLS approach introduced in "Design and analysis considerations for stepped wedge cluster randomized trials with a decay correlation structure" by F. Li.
 
 Continuous responses are generated from a marginal mean model with specified correlation structures to mimic a cohort stepped wedge cluster randomized trial, where longitudinal follow-ups are available for each recruited individual within a cluster. The treatment is assiged at the cluster level. 
 
